@@ -101,9 +101,9 @@ const questions = [
 
 
   const question = function(){
-      let container = document.getElementById("question-container")
+      let container = document.getElementsByClassName("question")
       let q = questions[0].question
-      container.innerText=q
+      container[0].innerText=q
       
   }
 
