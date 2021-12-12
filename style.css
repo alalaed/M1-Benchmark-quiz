@@ -7,7 +7,7 @@ body{
    
 }
 
-.question-container{
+#question-container{
     display: flex;
     border:solid;
     border-width: 2px;
@@ -19,7 +19,10 @@ body{
     background-color:rgba(232, 231, 200, 0.899);
     border-radius: 110px;
     min-height: 40vh;
-
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    justify-content: top;
     
 }
 
@@ -44,4 +47,3 @@ h1{
 }    
 
 
-font-family: 'Oswald', sans-serif;
